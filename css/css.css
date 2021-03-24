@@ -516,3 +516,12 @@ a:hover,a:active
   cursor: pointer;
   color: #000;
 }
+
+
+.textBox {
+  border-radius: 15px;
+  padding: 8px;
+  box-shadow: 3px 7px #57575762;
+  background-image: linear-gradient(to bottom right, rgba(206, 207, 255, 0.233), rgba(53, 53, 53, 0.233));
+  float: left;
+}
