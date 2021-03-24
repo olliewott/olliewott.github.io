@@ -222,13 +222,15 @@ li { margin-left: -1em }
   height: 360px;
   margin-left: 80px;
 }
-
+*/
 .square
 {
   width: 360px;
   height: 360px;
   margin-left: 140px;
-}*/
+}
+
+.ollie { background-image: url("img/ollie.jpg"); } 
 
 /* different aspect ratios for images */
 .threetwo
@@ -241,26 +243,7 @@ li { margin-left: -1em }
   padding-top: calc(0.66 * 75%);
 }
 
-.square
-{
-  width: 39%;
-  padding-top: calc(0.39 * 100%);
-}
 
-/* images for the slides */
-.ka  { background-image: url("../images/ka_gif.gif"); }
-.ssq { background-image: url("../images/ssq_gif.gif"); }
-.goe { background-image: url("../images/goe_gif.gif"); }
-.geo { background-image: url("../images/geo_gif.gif"); }
-.mr2 { background-image: url("../images/mr2_gif.gif"); }
-.ichi { background-image: url("../images/ichi_gif.gif"); }
-.paz { background-image: url("../images/paz_gif.gif"); }
-.duet { background-image: url("../images/duet_gif.gif"); }
-.eot { background-image: url("../images/eot_gif.gif"); }
-.ice { background-image: url("../images/ice_gif.gif"); }
-.toki { background-image: url("../images/toki_gif.gif"); }
-.jay { background-image: url("../images/picture.jpg"); } 
-.stagerush { background-image: url("../images/stagerush.jpg"); } 
 
 .youtube
 {
