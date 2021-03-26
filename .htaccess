@@ -4,3 +4,5 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
 RewriteCond %{REQUEST_FILENAME}\.png -f
 RewriteRule ^(.*)$ $1.png [NC,L]
+RewriteCond %{HTTPS} off 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
