@@ -446,6 +446,7 @@ a:hover,a:active
   background-image: linear-gradient(to bottom right, rgba(206, 207, 255, 0.233), rgba(53, 53, 53, 0.233));
   float: left;
   width: 100%;
+  text-shadow: 2px 2px #000000;
 }
 
 .avatarImg {
