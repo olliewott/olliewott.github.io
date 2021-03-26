@@ -549,10 +549,3 @@ margin: auto;
 	border-radius: 2px;
 }
 */
-
-@media only screen and (max-width: 800px)
-{
-.rsTmb{
-	width:500px;
-}
-}
